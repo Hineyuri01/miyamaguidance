@@ -1,0 +1,631 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+@media screen and (max-width:800px){
+
+  .siryo{
+
+    float: left;
+
+  }
+
+  .dekiru{
+
+    margin: 0;
+
+    padding: 0;
+
+  }
+
+  .higaeri{
+
+    margin: 0;
+
+    padding: 0;
+
+  }
+
+  .in{
+
+    margin: 0;
+
+    padding: 0;
+
+  }
+
+  .nannde{
+
+    margin: 0;
+
+    padding: 0;
+
+  }
+
+}
+
+@media screen and (min-width:801px){
+
+  header{
+
+    display: flex;
+
+  }
+
+  .siryo{
+
+    padding-top: 2.5vh;
+
+    padding-bottom: 2.5vh;
+
+    margin-left: 7vw;
+
+    margin-right: 7vw;
+
+  }
+
+  .dekiru{
+
+    margin-left: 1vw;
+
+    padding-top: 6vh;
+
+    padding-bottom: 3vh;
+
+  }
+
+  .higaeri{
+
+    padding-right: 3vw;
+
+    padding-top: 6vh;
+
+    padding-bottom: 3vh;
+
+  }
+
+  .in{
+
+    padding-top: 6vh;
+
+    padding-bottom: 3vh;
+
+  }
+
+  .nannde{
+    padding-top: 0;
+  }
+
+  .kouhann{
+
+    display: flex;
+
+  }
+
+}
+
+html{
+
+  height: auto;
+
+  width: 100vw;
+
+  transform: translateZ(0);
+
+  height: auto;
+
+}
+
+header{
+
+  margin: 0;
+
+
+  font-family: 'Caveat', cursive, "hannari";
+
+  background-blend-mode: lighten;
+  
+  height: 15vh;
+
+  width: 100vw;
+
+  background-color:rgb(0, 191, 255,0.7);
+
+  border: 0.8vh solid black;
+
+  border-radius: 2vw;
+
+}
+
+
+body{
+
+  padding: 0;
+
+  background-size: cover;
+
+  margin: 0;
+
+  height: auto;
+
+  width: 100vw;
+
+  overflow-y: scroll;
+
+  overflow-x: scroll;
+
+  transform: translateZ(0);
+
+  background-image: url(https://photo53.com/img/miyama02.jpg);
+
+}
+
+
+.yoyo{
+
+  display: flex;
+
+  height: auto;
+
+  margin-bottom: 0;
+
+  width: 100vw;
+
+}
+
+.siryo {
+
+  white-space: nowrap;
+
+  margin-top: 2.5vh;
+
+  margin-bottom: 2.5vh;
+
+  margin-left: 7vw;
+
+  margin-right: 7vw;
+
+  font-size: 3vw;
+
+}
+
+.dekiru{
+
+  margin-top: 0;
+
+  margin-bottom: 0;
+
+  margin-right: 0;
+
+  font-size: 2vw;
+
+  white-space: nowrap;
+
+  color: blueviolet;
+
+}
+
+.higaeri{
+
+  margin: 0;
+
+  font-size: 2vw;
+
+  white-space: nowrap;
+
+  color: blue;
+
+}
+
+.in{
+
+  white-space: nowrap;
+
+  font-family: 'Caveat', cursive;
+
+  font-size: 1vw;
+
+  color: yellow;
+
+  text-shadow: 1px 1px 0 #000,
+
+               -1px 1px 0 #000,
+
+               1px -1px 0 #000,
+
+               -1px -1px 0 #000;
+
+               shape-outside: margin-box;
+
+}
+
+.naze{
+
+  color: rgb(255, 0, 0);
+
+  white-space: nowrap;
+
+  font-size: 1vw;
+
+  text-shadow: 1px 1px 0 #000,
+
+               -1px 1px 0 #000,
+
+               1px -1px 0 #000,
+
+               -1px -1px 0 #000;
+
+               font-size: 1vw;
+
+}
+
+.nannde{
+
+  font-size: 1vw;
+
+  overflow-y: scroll;
+
+}
+
+h2{
+
+  font-family: "hannari,";
+
+}
+
+h3{
+
+  font-family: "hannari";
+
+}
+
+.traffic{
+
+  font-family: 'Caveat', cursive, "hannari";
+
+  text-align: center;
+
+  margin: 0px;
+
+  border: 0.5vh solid black;
+
+  border-radius: 0;
+
+  background-image: url("sozai/IMG_4737.JPG");
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+  background-position: center; 
+
+  overflow-y: scroll;
+
+  opacity: 0.85;
+
+  height: 70vh;
+
+  width: 50vw;
+
+}
+
+.traffic::-webkit-scrollbar {
+  display:none;
+ }
+
+.midokoro{
+
+  font-family: 'Caveat', cursive, "hannari";
+
+  text-align: center;
+
+  background-color: rgb(0, 255, 0, 0.7);
+
+  margin: 0px;
+
+  border: 0.5vh solid black;
+
+  border-radius: 0;
+
+  background-image: url("sozai/IMG_4753.JPG");
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+  background-position: center; 
+
+  overflow-y: scroll;
+
+  opacity: 0.85;
+
+  height: 70vh;
+
+  width: 50vw;
+
+}
+
+.oyaki{
+
+  height: 22vh;
+
+  width: 22vw;
+
+}
+
+.midokoro::-webkit-scrollbar {
+  display:none;
+ }
+
+ruby{
+
+  font-size: 2vw;
+
+  color: lightgreen;
+
+}
+
+
+details{
+
+  padding-top: 25vh;
+
+}
+
+.shousai{
+
+color: black;
+
+background-color: turquoise;
+
+font-family: "hannari";
+
+}
+
+.bird {
+
+  position: absolute;
+
+  width: 15px;
+
+  height: 15px;
+
+  transform: rotate(45deg);
+
+  animation: moving 16s linear infinite;
+
+}
+
+.bird.-type_2 {
+
+  animation-delay: 1s;
+
+}
+
+.bird.-type_2:before,
+.bird.-type_2:after {
+
+  animation-delay: -2s;
+
+}
+
+.bird.-type_3 {
+
+  animation-delay: 3s;
+
+  color: aliceblue;
+
+}
+
+@keyframes moving {
+
+  0% {
+
+    top: 47vh;
+
+    left: -2vw;
+
+  }
+
+  25% {
+
+    top: 51vh;
+
+    left: 23vw
+
+  }
+
+  100% {
+
+    top: 47vh;
+
+    left: 101vw;
+
+  }
+
+}
+
+.bird:before, .bird:after {
+
+  content: "";
+
+  position: absolute;
+
+  bottom: 0;
+
+  right: 0;
+
+  background-color: black;
+
+  transform: rotate(-30deg);
+
+  transform-origin: right bottom;
+
+}
+
+.bird:before {
+
+  width: 100%;
+
+  height: 3px;
+
+  animation: leftWing 8s linear infinite;
+
+}
+
+.bird:after {
+
+  width: 3px;
+
+  height: 100%;
+
+  animation: rightWing 8s linear infinite;
+
+}
+
+@keyframes leftWing {
+
+  0%   { transform: rotate(-30deg); }
+
+  2%   { transform: rotate(-110deg); }
+
+  4%   { transform: rotate(-30deg); }
+
+  6%   { transform: rotate(-110deg); }
+
+  8%   { transform: rotate(-30deg); }
+
+  10%  { transform: rotate(-110deg); }
+
+  12%  { transform: rotate(-30deg); }
+
+  30%  { transform: rotate(-30deg); }
+
+  42%  { transform: rotate(-35deg); }
+
+  72%  { transform: rotate(-35deg); }
+
+  74%  { transform: rotate(10deg); }
+
+  76%  { transform: rotate(-30deg); }
+
+  78%  { transform: rotate(-110deg); }
+
+  80%  { transform: rotate(-30deg); }
+
+  82%  { transform: rotate(-110deg); }
+
+  84%  { transform: rotate(-30deg); }
+
+  86%  { transform: rotate(-110deg); }
+
+  88%  { transform: rotate(-30deg); }
+
+  90%  { transform: rotate(-110deg); }
+
+  92%  { transform: rotate(-30deg); }
+
+  94%  { transform: rotate(-110deg); }
+
+  96%  { transform: rotate(-30deg); }
+
+  98%  { transform: rotate(-110deg); }
+
+  100% { transform: rotate(-30deg); }
+
+}
+
+@keyframes rightWing {
+
+  0%   { transform: rotate(30deg); }
+
+  2%   { transform: rotate(110deg); }
+
+  4%   { transform: rotate(30deg); }
+
+  6%   { transform: rotate(110deg); }
+
+  8%   { transform: rotate(30deg); }
+
+  10%  { transform: rotate(110deg); }
+
+  12%  { transform: rotate(30deg); }
+
+  30%  { transform: rotate(30deg); }
+
+  42%  { transform: rotate(35deg); }
+
+  72%  { transform: rotate(35deg); }
+
+  74%  { transform: rotate(0deg); }
+
+  76%  { transform: rotate(30deg); }
+
+  78%  { transform: rotate(110deg); }
+
+  80%  { transform: rotate(30deg); }
+
+  82%  { transform: rotate(110deg); }
+
+  84%  { transform: rotate(30deg); }
+
+  86%  { transform: rotate(110deg); }
+
+  88%  { transform: rotate(30deg); }
+
+  90%  { transform: rotate(110deg); }
+
+  92%  { transform: rotate(30deg); }
+
+  94%  { transform: rotate(110deg); }
+
+  96%  { transform: rotate(30deg); }
+
+  98%  { transform: rotate(110deg); }
+
+  100% { transform: rotate(30deg); }
+
+}
+
+.matome{
+
+  background-color: rgb(255, 255, 255,0.6);
+
+  text-align: center;
+
+  font-family: "hannari";
+
+  font-size: 1.5vw;
+
+  margin: 0;
+
+}
+
+footer{
+
+  margin:0;
+
+  bottom: 0; 
+
+  width:100vw;
+
+  height: auto;
+
+  color: #fff;
+
+  text-align: center;
+
+  padding-bottom: 0;
+
+  margin-bottom: 0;
+
+  background-color: darkgrey;
+
+  background-size: cover;
+
+  white-space: nowrap;
+
+}
+
+ footer::-webkit-scrollbar {
+  display:none;
+ }
+
